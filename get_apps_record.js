@@ -1,6 +1,8 @@
 // use       : https://js.cybozu.com/kintone-rest-api-client/5.5.1/KintoneRestAPIClient.min.js
 // reference : https://cdn.jsdelivr.net/gh/metalit-wellknowledge/kintone/get_apps_record.js
 
+alert("GOOD");
+
 (() => {
   'use strict';
   kintone.events.on('app.record.index.show', async (event) => {
