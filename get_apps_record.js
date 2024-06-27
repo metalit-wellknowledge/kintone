@@ -1,4 +1,4 @@
-// reference : https://cdn.jsdelivr.net/gh/user/repo@version/file
+// reference : https://cdn.jsdelivr.net/gh/metalit-wellknowledge/kintone/get_apps_record.js
 
 const body = {
   app: kintone.app.getId(),
