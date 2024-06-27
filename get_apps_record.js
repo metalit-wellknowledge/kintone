@@ -3,7 +3,7 @@
 
 const body = {
   app: kintone.app.getId(),
-  id: 1
+  id: 6
 };
 
 kintone.api(kintone.api.url('/k/v1/record.json', true), 'GET', body, (resp) => {
